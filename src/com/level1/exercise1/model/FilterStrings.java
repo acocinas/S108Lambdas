@@ -1,4 +1,4 @@
-package com.level1.exercise1.Model;
+package com.level1.exercise1.model;
 
 import java.util.*;
 import java.util.stream.Collectors;
