@@ -6,8 +6,8 @@ import java.util.stream.Collectors;
 public class FilterStrings {
     public static void run(){
         List<String> words = Arrays.asList("Backend Developer", "Frontend Developer","Data Science",
-                "QA Tester", "Full Stack Developer", "Security Analist",
-                "Enginer DevOps", "System Analist", "Project Manajer");
+                "QA Tester", "Full Stack Developer", "Security Analyst",
+                "Engineer DevOps", "System Analyst", "Project Manager");
 
         System.out.println("Esta es la lista original:\n" + words);
 

@@ -4,10 +4,8 @@ import com.level1.exercise8.functional.ReverseMethod;
 
 public class ReverseString {
     public static void run() {
-        ReverseMethod reserver = (input) -> {
-            StringBuilder reversed = new StringBuilder(input);
-            return reversed.reverse().toString();
-        };
+        ReverseMethod reserver = input -> new
+                StringBuilder(input).reverse().toString();
 
         String originalString = "Probando lambda con el reverse";
 
